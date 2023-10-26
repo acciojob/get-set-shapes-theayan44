@@ -18,6 +18,8 @@ class Rectangle {
 class Square extends Rectangle {
 	constructor(width, height){
 		super(width, height);
+		this.width = width;
+		this.height = height;
 	}
 	getPerimeter(){
 		return 2 * (this.height + this.width);
